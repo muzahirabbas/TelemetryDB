@@ -7,7 +7,7 @@
     {
       "binding": "DB",
       "database_name": "telemetry-db",
-      "database_id": "c6ce2269-899c-4ecf-874d-85a4edfd755e"
+      "database_id": "Your_DB_ID"
     }
   ],
   "observability": { "enabled": true }

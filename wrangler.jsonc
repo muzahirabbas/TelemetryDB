@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "telemetry-db",
+  "main": "src/index.js",  // <--- POINTING TO JS NOW
+  "compatibility_date": "2024-09-23",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "telemetry-db",
+      "database_id": "c6ce2269-899c-4ecf-874d-85a4edfd755e"
+    }
+  ],
+  "observability": { "enabled": true }
+}
